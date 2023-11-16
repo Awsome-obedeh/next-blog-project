@@ -1,0 +1,14 @@
+.container{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.imgHolder{
+    display: flex;
+    gap: 1rem;
+}
+
+.socials{
+    opacity: .6;
+    cursor:pointer;
+}

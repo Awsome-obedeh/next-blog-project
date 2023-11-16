@@ -1,0 +1,24 @@
+.container{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   height:100px
+}
+.logo{
+    font-weight:bolder;
+}
+.links{
+    display: flex;
+    align-items: center;
+    gap:2rem
+}
+
+.logout{
+    padding:.5rem 1rem;
+    background-color: thistle;
+    color: black;
+    font-weight :bolder;
+    border:none;
+    border-radius: .3rem;
+    text-align: center;
+}
