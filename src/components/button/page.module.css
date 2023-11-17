@@ -1,0 +1,10 @@
+.btn{
+    padding:.5rem 2.5rem;
+    width:max-content;
+    border:none;
+    border-radius: 3px;
+    font-weight:bolder;
+    background-color: thistle;
+    color:black
+  
+  }

@@ -1,5 +1,6 @@
 import Image from "next/image";
 import styles from "./page.module.css";
+import Button from "@/components/button/page";
 
 export default function Home() {
   return (
@@ -13,7 +14,7 @@ export default function Home() {
           Getting Up and Getting the Job done, That is what we are made up of
         </p> 
 
-        <button className={styles.heroBtn}>See More</button>
+        <Button url="/contact" title="See More"/>
 
       </div>
       <div className={styles.imgHolder}>
@@ -23,9 +24,9 @@ export default function Home() {
           className={styles.img}
           alt={"hero image"}
           src="https://images.unsplash.com/photo-1455849318743-b2233052fcff?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8aGVybyUyMGltYWdlfGVufDB8fDB8fHww"
-          ></Image>
+          />
       </div>
-      <h1>Home</h1>
+  
     </div>
   );
 }
