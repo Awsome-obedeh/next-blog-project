@@ -1,0 +1,41 @@
+.container{
+    /* margin-top: 30px; */
+    display: flex;
+    flex-direction: column;
+    gap:2.5rem;
+    justify-self: center;
+    align-items: center;
+}
+
+.subContainer{
+    display: flex;
+    gap:20px;
+    align-items: center;
+
+
+}
+
+.imgHolder{
+    position: relative;
+   height: 250px;
+    width: 300px;
+    flex:1;
+ 
+}
+.img{
+   
+    place-self: center;
+    /* object-fit: contain; */
+}
+.content{
+    flex: 1;
+}
+.title{
+    font-size: 30px;
+}
+.desc{
+    padding: 10px 0;
+    font-size:15px;
+    color:thistle;
+    line-height: 1.5;
+}
