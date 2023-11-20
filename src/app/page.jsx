@@ -1,9 +1,19 @@
+"use client"
 import Image from "next/image";
 import styles from "./page.module.css";
 import Button from "@/components/button/page";
+import { useState } from "react";
+// import { ThemeContext } from "@/context/themProvider";
 
 export default function Home() {
+  const [mode, setMode] = useState("dark");
+
+    const toggleMode = () => {
+        setMode((prevMode) => prevMode === 'dark' ? "light" : 'dark')
+    }
   return (
+    
+
     <div className={styles.container}>
       <div className={styles.text}>
         <h1 className={styles.heroText}>
@@ -28,5 +38,8 @@ export default function Home() {
       </div>
   
     </div>
+
+
+  
   );
 }

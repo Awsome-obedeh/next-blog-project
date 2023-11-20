@@ -12,7 +12,7 @@ const BlogPost = () => {
             <p className={styles.desc}>And as they all looked, some lost , not getting the new picture that has been paineted, he took the playful clouds and made them piercing clouds</p>
            
             <div className={styles.authorWrapper}>
-              <Image className={styles.authorImg} width={20} height={30} src="https://images.pexels.com/photos/4467064/pexels-photo-4467064.jpeg?auto=compress&cs=tinysrgb&w=400&lazy=load" alt='author image'></Image>
+              <Image className={styles.authorImg} width={30} height={30} src="https://images.pexels.com/photos/4467064/pexels-photo-4467064.jpeg?auto=compress&cs=tinysrgb&w=400&lazy=load" alt='author image'></Image>
               <p className={styles.authorName}>ObedDina</p>
             </div>
 
