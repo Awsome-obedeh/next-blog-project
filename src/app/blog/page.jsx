@@ -11,7 +11,7 @@ if your data never changes, we use static fetching {cache:'force-cahche}
 if you rarely make changes to your data, then we can use {revalidate:10}
 {if you want to fetch data all the data, use {cache:no-store}
 */
-_
+
 const Blog = async () => {
   async function getData() {
     const res = await fetch('https://jsonplaceholder.typicode.com/posts')

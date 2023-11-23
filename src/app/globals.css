@@ -7,7 +7,7 @@
 html,
 body {
   max-width: 100vw;
-  /* overflow-x: hidden; */
+  overflow-x: hidden;
   
 }
 
@@ -18,12 +18,12 @@ a {
 
 
 .container {
-  max-width: 1336px;
-  /* height: 100vh; */
+  /* max-width: 1336px; */
+  height: 100vh;
   margin: 0 auto;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  /* justify-content: space-between; */
 
 }
 .theme{

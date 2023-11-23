@@ -1,7 +1,9 @@
 .container {
-  display: flex;
+  width: inherit;
+  height: inherit;
+   display: flex;
   align-items: center;
-  gap: 4rem;
+  gap: 4rem; 
 }
 
 .text{
