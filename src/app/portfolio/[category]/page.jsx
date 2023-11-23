@@ -18,7 +18,7 @@ export default function Category({ params }) {
                 </div>
 
                 <div className={styles.imgHolder}>
-                    <Image className={styles.img} fill={true} src="https://images.pexels.com/photos/15118791/pexels-photo-15118791/free-photo-of-a-person-holding-a-picture.jpeg?auto=compress&cs=tinysrgb&w=400&lazy=load"></Image>
+                    <Image alt="porfolio "className={styles.img} fill={true} src="https://images.pexels.com/photos/15118791/pexels-photo-15118791/free-photo-of-a-person-holding-a-picture.jpeg?auto=compress&cs=tinysrgb&w=400&lazy=load"></Image>
 
                 </div>
             </div>
@@ -34,7 +34,7 @@ export default function Category({ params }) {
                 </div>
 
                 <div className={styles.imgHolder}>
-                    <Image className={styles.img} fill={true} src="https://images.pexels.com/photos/15118791/pexels-photo-15118791/free-photo-of-a-person-holding-a-picture.jpeg?auto=compress&cs=tinysrgb&w=400&lazy=load"></Image>
+                    <Image alt="category" className={styles.img} fill={true} src="https://images.pexels.com/photos/15118791/pexels-photo-15118791/free-photo-of-a-person-holding-a-picture.jpeg?auto=compress&cs=tinysrgb&w=400&lazy=load"></Image>
 
                 </div>
             </div>

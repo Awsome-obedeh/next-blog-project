@@ -30,7 +30,7 @@ const Blog = async () => {
       {
         datas && datas.map((data) => {
           return (
-            <div className={styles.subContainer}>
+            <div className={styles.subContainer} key={data.id}>
               <div className={styles.imgHolder}>
                 <Link href={`/blog/${data.id}`}>
                   <Image className={styles.img} src="https://images.pexels.com/photos/19068893/pexels-photo-19068893/free-photo-of-stream-in-a-canyon.jpeg?auto=compress&cs=tinysrgb&w=400&lazy=load" fill={true} alt="images"></Image>

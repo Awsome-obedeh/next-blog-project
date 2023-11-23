@@ -7,7 +7,7 @@ const Contact = () => {
   return (
     <div className={styles.container}>
 
-      <h1 className={styles.title}>Let's Connect</h1>
+      <h1 className={styles.title}>Lets us Connect</h1>
       <div className={styles.content}> 
         <div className={styles.imgHolder}>
           <Image
