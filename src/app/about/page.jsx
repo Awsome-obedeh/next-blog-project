@@ -10,6 +10,7 @@ export default function About() {
                     <Image src="https://images.unsplash.com/photo-1455849318743-b2233052fcff?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8aGVybyUyMGltYWdlfGVufDB8fDB8fHww"
                         className={styles.img}
                         fill={true}
+                        alt="about image"
                     />
 
                     <div className={styles.imgText}>

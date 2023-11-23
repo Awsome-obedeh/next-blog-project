@@ -21,11 +21,6 @@ export default function RootLayout({ children }) {
       <body  >
         <ThemeProvider>
           <div className='container'>
-
-
-
-
-
             <Navbar />
             {children}
             <Footer />
