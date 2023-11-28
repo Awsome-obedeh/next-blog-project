@@ -1,7 +1,10 @@
 import Image from "next/image"
 import styles from "./page.module.css"
 import Button from "@/components/button/page"
-
+export const metadata = {
+    title: 'Awsome Blogs | About',
+    description: 'This is Awesome Blogs',
+  }
 export default function About() {
     return (
         <>

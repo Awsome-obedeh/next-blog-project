@@ -2,6 +2,7 @@ import Image from 'next/image'
 import React from 'react'
 import styles from './page.module.css'
 import Link from 'next/link'
+import { notFound } from 'next/navigation'
 
 // next provides two ways of fetching data
 /* 1 .the client side renders the componenet first before data fetching 
@@ -30,6 +31,7 @@ const Blog = async () => {
     }
     catch (err) {
       console.log(err);
+      return notFound
 
     }
   }

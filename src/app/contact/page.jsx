@@ -3,6 +3,7 @@ import styles from "./page.module.css"
 import Image from 'next/image'
 import Button from '@/components/button/page'
 
+
 const Contact = () => {
   return (
     <div className={styles.container}>
