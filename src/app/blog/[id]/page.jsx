@@ -2,6 +2,8 @@ import React from 'react'
 import styles from './page.module.css'
 import Image from 'next/image'
 import { notFound } from 'next/navigation'
+import { Metadata  } from 'next'
+
 
 
 async function getData(id) {
@@ -26,6 +28,14 @@ async function getData(id) {
     console.log(err);
   }
 
+}
+// using the dynamic metadata to chnage title
+export async function generateMetadata({params}){
+  const post = await getData(params.id)
+  return{
+    title:post.title,
+    description:post.title
+  }
 }
 const BlogPost = async ({ params }) => {
 

@@ -1,6 +1,7 @@
 "use client"
 import useSWR from 'swr'
 import axios from 'axios'
+import { useSession } from 'next-auth/react'
 
 
 const Dashboard =  () => {
@@ -32,10 +33,12 @@ const Dashboard =  () => {
   // await res.json
   // console.log(res);
 
-  const fetcher = (...args) => fetch(...args).then(res => res.json())
-  const {data,error,isLoading}=useSWR('http',fetcher)
+  // const fetcher = (...args) => fetch(...args).then(res => res.json())
+  // const {data,error,isLoading}=useSWR('http',fetcher)
 
-  console.log(data);
+  // console.log(data);
+  const session=useSession()
+  console.log(session)
  
   return (
     <div>
