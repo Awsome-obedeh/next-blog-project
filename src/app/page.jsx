@@ -3,7 +3,7 @@ import Image from "next/image";
 import styles from "./page.module.css";
 import Button from "@/components/button/page";
 import { useState } from "react";
-// import { ThemeContext } from "@/context/themProvider";
+
 
 export default function Home() {
   const [mode, setMode] = useState("dark");

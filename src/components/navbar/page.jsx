@@ -2,6 +2,7 @@ import Link from "next/link";
 import React from "react";
 import styles from "./page.module.css";
 import DarkMode from "../darkMode/page";
+import { useSession } from "next-auth/react";
 const links = [
   {
     id: 1,
@@ -36,6 +37,8 @@ const links = [
 ];
 
 const Navbar = () => {
+  const session=useSession
+  const login=session.status
   return (
     <div className={styles.container}>
       <h1 className={styles.logo}>Awsome</h1>
@@ -55,7 +58,11 @@ const Navbar = () => {
           //     )
           // })
         }
-      <button className={styles.logout}>Logout</button>
+        {
+          login? <button className={styles.logout}>Logout</button>:
+          ( <button className={styles.logout}>LogIn</button>)
+     
+        }
       </div>
     </div>
   );
